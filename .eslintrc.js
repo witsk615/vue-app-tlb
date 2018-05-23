@@ -26,6 +26,8 @@ module.exports = {
     'prefer-const': 0,
     'no-unneeded-ternary': ["error", { "defaultAssignment": true }],
     'vue/max-attributes-per-line': 0,
+    'vue/attributes-order': 0,
+    'vue/require-default-prop': 0,
   },
   globals: {
     // '$': true,

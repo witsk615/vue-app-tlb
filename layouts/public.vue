@@ -12,8 +12,8 @@
           </v-list-tile>
         </v-list>
         </v-navigation-drawer>
-    <v-toolbar app class="cyan accent-1">
-      <v-toolbar-title>คะแนนวิชาสร้างเว็บไซต์ของนักศึกษาปริญญาตรีแผนกคอมพิวเตอร์ ปี๑</v-toolbar-title>
+    <v-toolbar app class="cyan accent-2">
+      <v-toolbar-title>ข้อมูลนักศึกษาปริญญาตรีแผนกคอมพิวเตอร์ ปี๑</v-toolbar-title>
       <v-spacer/>
       <v-toolbar-side-icon @click.stop="drawer = !drawer"/>
     </v-toolbar>
@@ -33,7 +33,6 @@ data() {
          { title: 'Booking', icon: 'assignment_turned_in', url: '/booking' },
          { title: 'Chat', icon: 'group', url: '/chat' },
          { title: 'key', icon: 'security', url: '/keyroom' },
-         { title: 'Logout', icon: 'lock', url: '/student1' },
        ],
      }
   },
